@@ -5,7 +5,7 @@ English | [简体中文](./README.md)
 > **Board**: U5C_LITE
 > **MCU**: STM32U535CBT6 (LQFP48 package)
 
-## Board Introduction
+## 1. Board Introduction
 
 ### MCU
 - STM32U535CBT6, Cortex-M33, 160 MHz core clock
@@ -21,7 +21,7 @@ English | [简体中文](./README.md)
 - LCD header ×1 (SPI half-duplex driven, color IPS TFT)
 - SPI Flash header ×1 (CLK PB13 / CS PB12 / MOSI PB14 / MISO PB15)
 
-## 1. Board-Level Pin Map (HDK/U5C_LITE-PinMap.md)
+## 2. Board-Level Pin Map (HDK/U5C_LITE-PinMap.md)
 
 | Function | Pin | Notes |
 |------|------|------|
@@ -33,7 +33,7 @@ English | [简体中文](./README.md)
 | SPI_LCD | PB7/PB6/PB4/PB5/PB3 + PA15 | PWR/RST/DC/SDA/SCL + CS |
 | SPI_FLASH | PB13/PB12/PB14/PB15 | CLK/CS/MOSI/MISO |
 
-## 2. Top-Level Directory Structure
+## 3. Top-Level Directory Structure
 
 | Path | Description |
 |------|------|
@@ -53,7 +53,7 @@ English | [简体中文](./README.md)
 | `README.md` | This document (Simplified Chinese) |
 | `README_EN.md` | English version of this document |
 
-## 3. Examples Library (16 in total)
+## 4. Examples Library (16 in total)
 
 | Category | Example |
 |------|----------|

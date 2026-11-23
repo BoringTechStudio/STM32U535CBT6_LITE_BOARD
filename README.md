@@ -5,7 +5,7 @@
 > **开发板**：U5C_LITE
 > **主控**：STM32U535CBT6（LQFP48 封装）
 
-## 板卡介绍
+## 一、板卡介绍
 
 ### 主控
 - STM32U535CBT6，Cortex-M33，160MHz 主频
@@ -21,7 +21,7 @@
 - LCD 接口 ×1（SPI 半双工驱动，彩色 IPS TFT）
 - SPI Flash 接口 ×1（CLK PB13 / CS PB12 / MOSI PB14 / MISO PB15）
 
-## 一、板级引脚映射（HDK/U5C_LITE-PinMap.md）
+## 二、板级引脚映射（HDK/U5C_LITE-PinMap.md）
 
 | 功能 | 引脚 | 说明 |
 |------|------|------|
@@ -33,7 +33,7 @@
 | SPI_LCD | PB7/PB6/PB4/PB5/PB3 + PA15 | PWR/RST/DC/SDA/SCL + CS |
 | SPI_FLASH | PB13/PB12/PB14/PB15 | CLK/CS/MOSI/MISO |
 
-## 二、顶层目录结构
+## 三、顶层目录结构
 
 | 路径 | 说明 |
 |------|------|
@@ -53,7 +53,7 @@
 | `README.md` | 本说明文档（简体中文） |
 | `README_EN.md` | 英文说明文档 |
 
-## 三、Examples 例程库（共 16 个）
+## 四、Examples 例程库（共 16 个）
 
 | 分类 | 例程名称 |
 |------|----------|
